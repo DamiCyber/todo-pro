@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+table,th,td{
+    border: 2px solid white;
+}
+body{
+   background: url(./img/abstract-blue-extruded-voronoi-blocks-background-minimal-light-clean-corporate-wall-3d-geometric-surface-illustration-polygonal-elements-displacement.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+}
+table{
+width: 100%;
+}
+.all{
+    margin-left: 400px;
+    margin-top: 100px;
+    display: flex;
+    gap: 30px;
+    width: 600px;
+    flex-direction: column;
+}
+input::placeholder{
+    color: #1187c7;
+    text-align: center;
+}
+#todoTitle{
+    outline-color:#1187c7 ;
+    height: 50px;
+    border-radius: 30px;
+}
+#todoDetails{
+    outline-color:#1187c7 ;
+    height: 50px;
+    border-radius: 30px;
+}
+.btn{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,.2);
+    cursor: pointer;
+    color: white;
+    text-transform: uppercase;
+    border-color: white;
+    background-color:#1187c7;
+    height: 50px;
+    border-radius: 30px;
+}
